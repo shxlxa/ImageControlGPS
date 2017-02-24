@@ -1,0 +1,2 @@
+# ImageControlGPS
+拍照时给照片加上gps信息，浏览照片时地图滚动到拍照时gps信息位置
