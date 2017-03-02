@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2128DD411E5E88CA00289EFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2128DD401E5E88CA00289EFD /* main.m */; };
+		2128DD441E5E88CA00289EFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2128DD431E5E88CA00289EFD /* AppDelegate.m */; };
+		2128DD471E5E88CA00289EFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2128DD461E5E88CA00289EFD /* ViewController.m */; };
+		2128DD4A1E5E88CA00289EFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2128DD481E5E88CA00289EFD /* Main.storyboard */; };
+		2128DD4C1E5E88CB00289EFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2128DD4B1E5E88CB00289EFD /* Assets.xcassets */; };
+		2128DD4F1E5E88CB00289EFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2128DD4D1E5E88CB00289EFD /* LaunchScreen.storyboard */; };
+		2128DD5A1E5E88CB00289EFD /* ImageControlGPSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2128DD591E5E88CB00289EFD /* ImageControlGPSTests.m */; };
+		2128DD651E5E88CB00289EFD /* ImageControlGPSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2128DD641E5E88CB00289EFD /* ImageControlGPSUITests.m */; };
+		2128DD741E5E8CA400289EFD /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2128DD731E5E8CA400289EFD /* AssetsLibrary.framework */; };
+		2128DD771E5EBE9100289EFD /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2128DD761E5EBE9100289EFD /* Tool.m */; };
+		2128DD791E5EC39E00289EFD /* 9.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 2128DD781E5EC39E00289EFD /* 9.JPG */; };
+		2128DD7B1E5ECA3D00289EFD /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2128DD7A1E5ECA3D00289EFD /* 1.png */; };
+		2128DD7D1E5EEC4100289EFD /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2128DD7C1E5EEC4100289EFD /* MobileCoreServices.framework */; };
+		2128DD7F1E5EEC5100289EFD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2128DD7E1E5EEC5100289EFD /* AVFoundation.framework */; };
+		215788B81E60324000985262 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 215788B71E60324000985262 /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2128DD561E5E88CB00289EFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2128DD341E5E88CA00289EFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2128DD3B1E5E88CA00289EFD;
+			remoteInfo = ImageControlGPS;
+		};
+		2128DD611E5E88CB00289EFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2128DD341E5E88CA00289EFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2128DD3B1E5E88CA00289EFD;
+			remoteInfo = ImageControlGPS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2128DD3C1E5E88CA00289EFD /* ImageControlGPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageControlGPS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2128DD401E5E88CA00289EFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2128DD421E5E88CA00289EFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2128DD431E5E88CA00289EFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2128DD451E5E88CA00289EFD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2128DD461E5E88CA00289EFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2128DD491E5E88CA00289EFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2128DD4B1E5E88CB00289EFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2128DD4E1E5E88CB00289EFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2128DD501E5E88CB00289EFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2128DD551E5E88CB00289EFD /* ImageControlGPSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageControlGPSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2128DD591E5E88CB00289EFD /* ImageControlGPSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageControlGPSTests.m; sourceTree = "<group>"; };
+		2128DD5B1E5E88CB00289EFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2128DD601E5E88CB00289EFD /* ImageControlGPSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageControlGPSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2128DD641E5E88CB00289EFD /* ImageControlGPSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageControlGPSUITests.m; sourceTree = "<group>"; };
+		2128DD661E5E88CB00289EFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2128DD731E5E8CA400289EFD /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		2128DD751E5EBE9100289EFD /* Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
+		2128DD761E5EBE9100289EFD /* Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
+		2128DD781E5EC39E00289EFD /* 9.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.JPG; sourceTree = "<group>"; };
+		2128DD7A1E5ECA3D00289EFD /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		2128DD7C1E5EEC4100289EFD /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		2128DD7E1E5EEC5100289EFD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		215788B61E60324000985262 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		215788B71E60324000985262 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2128DD391E5E88CA00289EFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2128DD7F1E5EEC5100289EFD /* AVFoundation.framework in Frameworks */,
+				2128DD7D1E5EEC4100289EFD /* MobileCoreServices.framework in Frameworks */,
+				2128DD741E5E8CA400289EFD /* AssetsLibrary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2128DD521E5E88CB00289EFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2128DD5D1E5E88CB00289EFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2128DD331E5E88CA00289EFD = {
+			isa = PBXGroup;
+			children = (
+				2128DD3E1E5E88CA00289EFD /* ImageControlGPS */,
+				2128DD581E5E88CB00289EFD /* ImageControlGPSTests */,
+				2128DD631E5E88CB00289EFD /* ImageControlGPSUITests */,
+				2128DD3D1E5E88CA00289EFD /* Products */,
+				2128DD721E5E8CA400289EFD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2128DD3D1E5E88CA00289EFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2128DD3C1E5E88CA00289EFD /* ImageControlGPS.app */,
+				2128DD551E5E88CB00289EFD /* ImageControlGPSTests.xctest */,
+				2128DD601E5E88CB00289EFD /* ImageControlGPSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2128DD3E1E5E88CA00289EFD /* ImageControlGPS */ = {
+			isa = PBXGroup;
+			children = (
+				2128DD7A1E5ECA3D00289EFD /* 1.png */,
+				2128DD781E5EC39E00289EFD /* 9.JPG */,
+				2128DD421E5E88CA00289EFD /* AppDelegate.h */,
+				2128DD431E5E88CA00289EFD /* AppDelegate.m */,
+				2128DD451E5E88CA00289EFD /* ViewController.h */,
+				2128DD461E5E88CA00289EFD /* ViewController.m */,
+				215788B61E60324000985262 /* DetailViewController.h */,
+				215788B71E60324000985262 /* DetailViewController.m */,
+				2128DD751E5EBE9100289EFD /* Tool.h */,
+				2128DD761E5EBE9100289EFD /* Tool.m */,
+				2128DD481E5E88CA00289EFD /* Main.storyboard */,
+				2128DD4B1E5E88CB00289EFD /* Assets.xcassets */,
+				2128DD4D1E5E88CB00289EFD /* LaunchScreen.storyboard */,
+				2128DD501E5E88CB00289EFD /* Info.plist */,
+				2128DD3F1E5E88CA00289EFD /* Supporting Files */,
+			);
+			path = ImageControlGPS;
+			sourceTree = "<group>";
+		};
+		2128DD3F1E5E88CA00289EFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2128DD401E5E88CA00289EFD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2128DD581E5E88CB00289EFD /* ImageControlGPSTests */ = {
+			isa = PBXGroup;
+			children = (
+				2128DD591E5E88CB00289EFD /* ImageControlGPSTests.m */,
+				2128DD5B1E5E88CB00289EFD /* Info.plist */,
+			);
+			path = ImageControlGPSTests;
+			sourceTree = "<group>";
+		};
+		2128DD631E5E88CB00289EFD /* ImageControlGPSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2128DD641E5E88CB00289EFD /* ImageControlGPSUITests.m */,
+				2128DD661E5E88CB00289EFD /* Info.plist */,
+			);
+			path = ImageControlGPSUITests;
+			sourceTree = "<group>";
+		};
+		2128DD721E5E8CA400289EFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2128DD7E1E5EEC5100289EFD /* AVFoundation.framework */,
+				2128DD7C1E5EEC4100289EFD /* MobileCoreServices.framework */,
+				2128DD731E5E8CA400289EFD /* AssetsLibrary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2128DD3B1E5E88CA00289EFD /* ImageControlGPS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2128DD691E5E88CB00289EFD /* Build configuration list for PBXNativeTarget "ImageControlGPS" */;
+			buildPhases = (
+				2128DD381E5E88CA00289EFD /* Sources */,
+				2128DD391E5E88CA00289EFD /* Frameworks */,
+				2128DD3A1E5E88CA00289EFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageControlGPS;
+			productName = ImageControlGPS;
+			productReference = 2128DD3C1E5E88CA00289EFD /* ImageControlGPS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2128DD541E5E88CB00289EFD /* ImageControlGPSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2128DD6C1E5E88CB00289EFD /* Build configuration list for PBXNativeTarget "ImageControlGPSTests" */;
+			buildPhases = (
+				2128DD511E5E88CB00289EFD /* Sources */,
+				2128DD521E5E88CB00289EFD /* Frameworks */,
+				2128DD531E5E88CB00289EFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2128DD571E5E88CB00289EFD /* PBXTargetDependency */,
+			);
+			name = ImageControlGPSTests;
+			productName = ImageControlGPSTests;
+			productReference = 2128DD551E5E88CB00289EFD /* ImageControlGPSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2128DD5F1E5E88CB00289EFD /* ImageControlGPSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2128DD6F1E5E88CB00289EFD /* Build configuration list for PBXNativeTarget "ImageControlGPSUITests" */;
+			buildPhases = (
+				2128DD5C1E5E88CB00289EFD /* Sources */,
+				2128DD5D1E5E88CB00289EFD /* Frameworks */,
+				2128DD5E1E5E88CB00289EFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2128DD621E5E88CB00289EFD /* PBXTargetDependency */,
+			);
+			name = ImageControlGPSUITests;
+			productName = ImageControlGPSUITests;
+			productReference = 2128DD601E5E88CB00289EFD /* ImageControlGPSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2128DD341E5E88CA00289EFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = aoni;
+				TargetAttributes = {
+					2128DD3B1E5E88CA00289EFD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7Y3TV276B8;
+						ProvisioningStyle = Automatic;
+					};
+					2128DD541E5E88CB00289EFD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7Y3TV276B8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2128DD3B1E5E88CA00289EFD;
+					};
+					2128DD5F1E5E88CB00289EFD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7Y3TV276B8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2128DD3B1E5E88CA00289EFD;
+					};
+				};
+			};
+			buildConfigurationList = 2128DD371E5E88CA00289EFD /* Build configuration list for PBXProject "ImageControlGPS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2128DD331E5E88CA00289EFD;
+			productRefGroup = 2128DD3D1E5E88CA00289EFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2128DD3B1E5E88CA00289EFD /* ImageControlGPS */,
+				2128DD541E5E88CB00289EFD /* ImageControlGPSTests */,
+				2128DD5F1E5E88CB00289EFD /* ImageControlGPSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2128DD3A1E5E88CA00289EFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2128DD4F1E5E88CB00289EFD /* LaunchScreen.storyboard in Resources */,
+				2128DD791E5EC39E00289EFD /* 9.JPG in Resources */,
+				2128DD4C1E5E88CB00289EFD /* Assets.xcassets in Resources */,
+				2128DD4A1E5E88CA00289EFD /* Main.storyboard in Resources */,
+				2128DD7B1E5ECA3D00289EFD /* 1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2128DD531E5E88CB00289EFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2128DD5E1E5E88CB00289EFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2128DD381E5E88CA00289EFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215788B81E60324000985262 /* DetailViewController.m in Sources */,
+				2128DD471E5E88CA00289EFD /* ViewController.m in Sources */,
+				2128DD441E5E88CA00289EFD /* AppDelegate.m in Sources */,
+				2128DD411E5E88CA00289EFD /* main.m in Sources */,
+				2128DD771E5EBE9100289EFD /* Tool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2128DD511E5E88CB00289EFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2128DD5A1E5E88CB00289EFD /* ImageControlGPSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2128DD5C1E5E88CB00289EFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2128DD651E5E88CB00289EFD /* ImageControlGPSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2128DD571E5E88CB00289EFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2128DD3B1E5E88CA00289EFD /* ImageControlGPS */;
+			targetProxy = 2128DD561E5E88CB00289EFD /* PBXContainerItemProxy */;
+		};
+		2128DD621E5E88CB00289EFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2128DD3B1E5E88CA00289EFD /* ImageControlGPS */;
+			targetProxy = 2128DD611E5E88CB00289EFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2128DD481E5E88CA00289EFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2128DD491E5E88CA00289EFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2128DD4D1E5E88CB00289EFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2128DD4E1E5E88CB00289EFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2128DD671E5E88CB00289EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2128DD681E5E88CB00289EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2128DD6A1E5E88CB00289EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7Y3TV276B8;
+				INFOPLIST_FILE = ImageControlGPS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cft.ImageControlGPS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2128DD6B1E5E88CB00289EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7Y3TV276B8;
+				INFOPLIST_FILE = ImageControlGPS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cft.ImageControlGPS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2128DD6D1E5E88CB00289EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7Y3TV276B8;
+				INFOPLIST_FILE = ImageControlGPSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cft.ImageControlGPSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageControlGPS.app/ImageControlGPS";
+			};
+			name = Debug;
+		};
+		2128DD6E1E5E88CB00289EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7Y3TV276B8;
+				INFOPLIST_FILE = ImageControlGPSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cft.ImageControlGPSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageControlGPS.app/ImageControlGPS";
+			};
+			name = Release;
+		};
+		2128DD701E5E88CB00289EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7Y3TV276B8;
+				INFOPLIST_FILE = ImageControlGPSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cft.ImageControlGPSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ImageControlGPS;
+			};
+			name = Debug;
+		};
+		2128DD711E5E88CB00289EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7Y3TV276B8;
+				INFOPLIST_FILE = ImageControlGPSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cft.ImageControlGPSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ImageControlGPS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2128DD371E5E88CA00289EFD /* Build configuration list for PBXProject "ImageControlGPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2128DD671E5E88CB00289EFD /* Debug */,
+				2128DD681E5E88CB00289EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2128DD691E5E88CB00289EFD /* Build configuration list for PBXNativeTarget "ImageControlGPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2128DD6A1E5E88CB00289EFD /* Debug */,
+				2128DD6B1E5E88CB00289EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2128DD6C1E5E88CB00289EFD /* Build configuration list for PBXNativeTarget "ImageControlGPSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2128DD6D1E5E88CB00289EFD /* Debug */,
+				2128DD6E1E5E88CB00289EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2128DD6F1E5E88CB00289EFD /* Build configuration list for PBXNativeTarget "ImageControlGPSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2128DD701E5E88CB00289EFD /* Debug */,
+				2128DD711E5E88CB00289EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2128DD341E5E88CA00289EFD /* Project object */;
+}
